@@ -28,8 +28,7 @@ def name_to_number(name):
         number = 4
     else:
         print 'error converting name to number>>>'
-    
-    # don't forget to return the result!
+
     return number
 
 def number_to_name(number):   
@@ -50,7 +49,6 @@ def number_to_name(number):
     # don't forget to return the result!
     return name
     
-
 def rpsls(player_choice):    
     # print a blank line to separate consecutive games
     print
@@ -76,12 +74,9 @@ def rpsls(player_choice):
     else:
         print "Player wins!"
     
-# test your code - THESE CALLS MUST BE PRESENT IN YOUR SUBMITTED CODE
+# test your code
 rpsls("rock")
 rpsls("Spock")
 rpsls("paper")
 rpsls("lizard")
 rpsls("scissors")
-
-               
-# always remember to check your completed program against the grading rubric
